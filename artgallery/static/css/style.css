@@ -1,0 +1,576 @@
+@import url('https://fonts.cdnfonts.com/css/snell-roundhand');
+
+.menu_arriba{
+    background-color: black;
+}
+
+.slide{
+    margin-top: 10px;
+}
+.slide img{
+    margin: auto;
+    height: 65vh;
+}
+.carru{
+    background-color: rgb(95, 4, 15);
+}
+
+.pag{
+    background-color: rgb(211, 213, 212)
+}
+.Eslogan2
+{
+    margin-top: 0.5cm;
+    text-align: center;
+    color: black;
+    text-size-adjust: 50px;
+    font-family: 'Snell Roundhand', sans-serif;
+}
+.Eslogan{
+    margin-top: 0.5cm;
+    text-align: center;
+    color: black;
+    text-size-adjust: 50px;
+    font-family: 'France Juice', sans-serif;                                          
+}
+
+.textopoli
+{
+    display: block;
+}
+
+.cajaini
+{
+    display: block;
+    margin-top: 1cm;
+    margin-bottom: 5cm;
+
+}
+
+.tarjeta
+{
+    margin-left: 10cm;
+    border: 5px black solid;
+    max-width: 60cm;
+    min-height: 9.8cm;
+
+}
+@media(max-width: 715px)
+{
+    .tarjeta
+    {
+        margin: 1cm;
+        border: 5px black solid;
+        width: 10.5cm;
+        min-width: 9cm;
+        height: 16.3cm;
+    }
+}
+
+.imagen
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    border: 5px black solid;
+}
+
+@media(max-width: 715px)
+{
+    .imagen
+    {
+        margin-left: 1cm;
+        float: left;
+        border: 5px black solid;
+    }
+    
+}   
+
+.texto
+{
+    border: 5px black solid;
+    margin-top: 15px;
+    margin-left: 9cm;
+    margin-right: 15px;
+    padding: 5px;
+    height: 8.7cm;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@media(max-width: 715px)
+{
+    .texto
+    {
+        border: 5px black solid;
+        margin-right: 41px;
+        margin-left: 1cm;
+        margin-top: 9.3cm;
+        height: 6.4cm;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+    }
+    
+}   
+
+.infbody{
+    margin-top: 1cm;
+    text-align: center;
+    color: black;
+    text-size-adjust: 50px;
+    padding: 5px 60px 5px;
+}
+
+.cajaimag
+{
+   display: grid;
+   padding: 3cm;
+   gap: 5px;
+
+   
+}
+
+@media (min-width: 650px) 
+{
+    .cajaimag
+    {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 940px) 
+{
+    .cajaimag
+    {
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1250px) 
+{
+    .cajaimag
+    {
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 2300px) 
+{
+    .cajaimag
+    {
+    grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+.imag1
+{
+    background-color: gray;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    font-style: italic;
+    border: black 2px solid;
+}
+
+.card-img-top
+{
+    width: 390px;
+    height: 259px;
+    border: black 2px solid;
+
+}
+
+.titulo
+{
+    font-family: 'Snell Roundhand', sans-serif;
+    text-align: center;
+    text-size-adjust: 350px;
+    padding: 5px;
+}
+
+
+/*-------------------------- inicio de formulario ----------------------------*/
+
+
+.container{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 0 rgba(0,0, 0,.4) ;
+    padding: 40px;
+}
+input{
+    margin: 10px;
+}
+input[type=text ]{
+    display: block;
+    width: 100%;
+    background: transparent rgba(78, 78, 78, 0.61);
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input[type=email ]{
+    display: block;
+    width: 100%;
+    background: transparent rgba(78, 78, 78, 0.61);
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input[type=checkbox ]{
+    display: block;
+    background: transparent rgba(78, 78, 78, 0.61);
+    border: none;
+    padding: 10px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input[type=radio ]{
+    background: transparent rgba(78, 78, 78, 0.61);
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=submit]{
+    display: block;
+    width: 100%;
+    background: rgba(0,0, 0,.61);
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.errors{
+    background: rgba(252, 72, 72, 0.3);
+    padding: 10px 20px;
+    color: red;
+    text-align: center;
+    display: none;
+}
+.errors p {
+    margin: 5px 0;
+}
+
+/*------------------------------------------------------------------- API -------------------------------------------------------------------*/
+
+
+
+.bodyapi{
+    height: 100vh;
+    background: linear-gradient(gray 50%, black 50%);
+}
+
+.EncabezadoPer
+{
+    padding: 1cm;
+    text-align: center;
+    color: #ffffff;
+}
+
+.containerapi{
+    position: relative;
+    margin-right: 6cm;
+    margin-left: -4cm;
+    left: 40%;
+    top: 1cm;
+    right: 40%;
+    max-width: 37.5em;
+    background-color: #ffffff;
+    padding: 1.8em;
+    border-radius: 0.6em;
+    box-shadow: 0 1.2em 3em rgba(2, 9,38,0.25);
+}
+
+.search-containerapi{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    margin-bottom: 1.2em;
+}
+.search-containerapi input{
+    font-size: 1em;
+    padding: 0.6em 0.3em;
+    border: none;
+    outline: none;
+    color: #1f194c;
+    border-bottom: 1.5px solid  #1f194c ;
+}
+
+.search-containerapi input:focus{
+    border-color: #5372f0;
+}
+
+.search-containerapi button{
+    font-size: 1em;
+    border-radius: 2em;
+    background-color: #5372f0;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+#result{
+    color: #575a7b;
+    line-height: 2em;
+}
+
+#result img {
+    display: block;
+    max-width: 12.5em;
+    margin: auto;
+
+}
+
+#result h2 {
+    font-size: 1.25em;
+    margin: 0.8em 0 1.6em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color:#1f194c;
+    position: relative;
+}
+
+#result h2:before {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background-color: #5372f0;
+    left: 42.5%;
+    bottom: -0.3em;
+}
+
+#result h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color:#1f194c;
+}
+
+#result ul{
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#result p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.95em;
+}
+
+.msg{
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .containerapi{
+        font-size:14px;
+    }
+}
+
+
+/*---------------------------------*/
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 2cm;
+  margin-bottom: 3cm;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: rgb(rgb(109, 0, 0));
+}
+
+
+/*--------------- iniciar sesion / cerrar sesion ------------------*/
+
+
+.boton_inicer {
+    margin-left: 8fr;
+    justify-content: flex-end;
+
+  }
+
+  .boton_inicer .btn {
+    margin-left: 10px;
+  }
+
+  .boton_inicer .btn-login {
+    background-color: red;
+    color: white;
+  }
+
+/*---------------- creacion de producto / publicacion de obra -----------------*/
+
+.product-form {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color: rgb(212, 209, 209);
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 1cm;
+margin-top: 0.5cm;
+}
+
+.product-form h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.product-form label {
+display: block;
+margin-bottom: 10px;
+}
+
+.product-form input[type="text"],
+.product-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 100px;
+border: 5px solid #ccc;
+border-radius: 4px;
+}
+
+.product-form button {
+display: block;
+width: 100%;
+padding: 10px;
+background-color: rgb(95, 4, 15);;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.product-form button:hover {
+background-color: rgb(95, 4, 15);;
+}
+  
+
+/*---------------- modificacion de producto / eliminacion de publicacion de obra -----------------*/
+  
+.listaobras {
+display: flex;
+flex-wrap: wrap;
+gap: 1cm;
+padding: 1cm;
+}
+
+.listaobras .producto {
+width: 10cm;
+height: 15cm;
+border: 1px solid #ccc;
+padding: 10px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.listaobras .producto img {
+width: 100%;
+height: auto;
+max-width: 10cm;
+max-height: 10cm;
+object-fit: cover;
+margin-bottom: 5px;
+}
+
+.listaobras .producto .acciones {
+margin-top: 10px;
+}
+
+.listaobras .producto .acciones a {
+display: inline-block;
+padding: 8px 16px;
+font-size: 14px;
+color: #333;
+text-decoration: none;
+border-radius: 5px;
+background-color: #fff;
+transition: background-color 0.3s;
+}
+
+.listaobras .producto a.actualizar {
+background-color: #fff;
+color: #337ab7;
+}
+
+.listaobras .producto  a.eliminar {
+margin-top: 5px;    
+background-color: #fff;
+color: #d9534f;
+}
+
+.listaobras .producto  a:hover {
+background-color: #eee;
+}
+
+.actu{
+    padding: auto;;
+}

@@ -1,0 +1,16 @@
+{% extends 'artgallery/base.html' %}
+
+{% block content %}
+  <div class="Eslogan">
+    <h2>Eliminar Producto</h2>
+    <p>¿Estás seguro de que deseas eliminar el producto "{{ producto.nombre }}"?</p>
+    <form method="post">
+      {% csrf_token %}
+      <button type="submit">Eliminar</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br>
+  </div>
+{% endblock %}

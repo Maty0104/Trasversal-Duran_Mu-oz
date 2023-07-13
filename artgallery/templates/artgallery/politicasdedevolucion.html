@@ -1,0 +1,131 @@
+{% extends 'artgallery/base.html' %}
+{% load static %}
+{% block content %}
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Politicas de Devolucion</title>
+  <!-- liks donde esta relacionado la carpeta css, bootstrap y el estilo de la letra del eslogan-->    
+      <link rel="icon" href="{% static 'imagenes/descarga-removebg-preview.ico' %}">
+      <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+      <link href="https://fonts.cdnfonts.com/css/snell-roundhand" rel="stylesheet">
+
+
+  </head>
+  <body class="pag">
+  <!---------------------------------- barra de enlaces ------------------------------------------------------------------------->
+
+  <!-------------------------------------------- titulo de la paguina ------------------------------------------------>
+      <div class="Eslogan" >
+          <h1>
+          <u>
+            Politicas de Devolucion
+          </u>
+        </h1>
+      </div>
+  <!-------------------------------------------- explicacion de la politicas de devolucion --------------------------->
+      
+      <div class="textopoli">
+        <div class="infbody">
+              <p>
+              Nuestra política de cambio y devolución se ajusta a lo establecido por el SERNAC,<br>
+              lo que significa que si el producto que compraste falla, tienes derecho a la garantía legal.
+              </p>
+              
+              <h2>
+                ¿Puedo cambiar un producto que compré?   
+              </h2>
+
+              <p>
+              Si la obra que compraste no cumplió con tus expectativas, entonces te ofrecemos 10 días <br>
+              para la devolución del dinero (a contar del día que hiciste la compra) y 3 meses para el <br>
+              cambio del producto en el caso que presente algún deterioro o falla. El enmarcado al ser <br>
+              a elección y a medida no tiene devolución. Es muy importante que el producto y envase o caja <br>
+              se encuentre en perfecto estado. para poder hacer el cambio.  
+              </p>
+              <h2>
+              ¿Cómo cambiar o devolver una obra?  
+              </h2>
+              <p>
+              Escríbenos un correo electrónico a grupoceroarte@gmail.com indicándonos <br>
+              cuál es la obra que quieres cambiar o devolver, el número de boleta y el <br>
+              día que compraste el producto. Por este medio vamos a realizare todas las gestiones.   
+              </p>
+              <h2>        
+              CONTÁCTANOS
+              </h2>
+              <p>
+              Opción directa para que nos envíen un correo a <br>
+              grupoceroarte@gmail.com
+              </p>
+        </div>
+      </div> 
+  <!-------------------------------------------- creaccion del footer ------------------------------------------------>
+  <div class="footer"> 
+      <div class="container-fluid">
+      <div class="row p-5 p-2 bg-secondary text-white">
+    <!-- creaccion parte izquierda con el nombre de la empresa y la direcion donde esta ubicada-->        
+          <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3">Grupo Cero</p>
+              <p >Arturo Prat 599, Coihueco</p>
+              <img src="imagenes/Logo_DuocUC.png" alt="douc-logo" width="100px" height="50px">
+          </div>
+    
+    <!-- creaccion de la columana  de las politicas de la empresa-->        
+          <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h5">Politicas</p>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="politicasdeprivacidad.html"> Politicas de Privacidad</a>
+              </div>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="politicasdedevolucion.html"> Politicas de devolucion</a>
+              </div>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="terminosyservicios.html"> Terminos y servicio</a>
+              </div>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="politicasdeenvio.html"> Politicas de envio</a>
+              </div>
+    
+          </div>
+    <!-- creaccion de la columa de los contractos de la empresa -->        
+          <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h5">Contactos</p>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="https://www.facebook.com/profile.php?id=100091520957958"> <img src="imagenes/Facebook_f_logo.png" alt="facebook-logo" width="30px" height="30px"> Facebook</a>
+              </div>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="https://www.instagram.com/grupoceroarte/"> <img src="imagenes/Instagram-Icon.png" alt="instagram--logo" width="30px" height="30px"> Instagram</a>
+              </div>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="https://twitter.com/artecero160805"><img src="imagenes/Twitter-logo.png" alt="twitter-logos" width="30px" height="30px"> Twitter</a>
+              </div>
+              <div class="mb-2">
+                  <a class="text-white text-decoration-none" href="https://www.linkedin.com/in/arte-cero-4a4946271/"><img src="imagenes/linkedin-icon.png" alt="linkedin -logos" width="30px" height="30px"> Linkedin</a>
+              </div>
+              <div  class="mb-2">
+                <a class="text-white text-decoration-none">Correo: grupoceroarte@gmail.com</a>
+              </div>
+          </div>
+    <!-- creaccion de copyright y de los derechos de autor-->        
+            <div class="col-x-12 pt-4">
+              <p class="text-white text-center"> Copyright - All right reserved © 2023</p>
+    
+            </div>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    <!---------------------------------------------------- link para javascript ----------------------------------------------------->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    
+  </body>
+  </html>
+{% endblock %}

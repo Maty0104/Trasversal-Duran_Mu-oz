@@ -1,0 +1,20 @@
+{% extends 'artgallery/base.html' %}
+
+{% block content %}
+  <h2 class="Eslogan">Lista de Productos</h2>
+  <div class="listaobras">
+    {% for producto in productos %}
+      <div class="producto">
+        <h3>{{ producto.nombre }}</h3>
+        <p>{{ producto.descripcion }}</p>
+        <p>Precio: ${{ producto.precio }}</p>
+        <img src="{{ producto.imagen.url }}" alt="Imagen del producto">
+        <button><a href="{% url 'actualizar_producto' producto.pk %}" class="actualizar">Actualizar</a></button>
+        <button><a href="{% url 'eliminar_producto' producto.pk %}" class="eliminar">Eliminar</a></button>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br>
+    {% empty %}
+      <p>No hay productos disponibles.</p>
+    {% endfor %}
+  </div>
+{% endblock %}

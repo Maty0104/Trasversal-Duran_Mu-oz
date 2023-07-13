@@ -1,0 +1,111 @@
+{% extends 'artgallery/base.html' %}
+{% load static %}
+{% block content %}  
+  
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="icon" href="{% static 'imagenes/descarga-removebg-preview.ico' %}">
+      <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+      <link href="https://fonts.cdnfonts.com/css/snell-roundhand" rel="stylesheet">
+
+
+  </head>
+  <body class="pag">
+
+  <!-------------------------------------------- creaccion de las terjetas con imagenes ------------------------------------------------>
+
+
+  <!-------------------------------------------- tarjeta n1  --------------------------------------------------------------------------->
+      <div class="cajamadre">
+        <div class="cajaimag">
+          <div class="imag1" style="width: 18rem;">
+              <img src="{% static 'imagenes/reloj cometa.jpg' %}" class="card-img-top" width="359px" height="259" alt="reloj-cometa">
+              <h5 class="titulo">Reloj Cometa</h5>
+              <p>
+                  Este reloj de escritorio de piedra luna y diamante presenta una esfera 
+                  circular aliada en burgauté con incrustaciones de piedras lunares cabujón, 
+                  nácar, esmalte, turquesas cabujón, diamantes talla rosa y oro. Está fechado en 1926 y 
+                  presenta un movimiento mecánico
+              </p>
+          </div>     
+    <!-------------------------------------------- tarjeta n2  --------------------------------------------------------------------------->
+          <div class="imag1" style="width: 18rem;">
+              <img src="{% static 'imagenes/minero.jpg' %}" class="card-img-top" alt="minero-benitp">
+                <h5 class="titulo">El minero</h5>
+                <p > 
+                  Obra de formato rectangular con marco, cuya composición se basa en una figura masculina 
+                  representada de tres cuartos de cuerpo y medio perfil. El personaje se presenta con el torso desnudo, 
+                  con cinturón rojo y pantalón negro, y un sombrero de paja en su cabeza. Con su mano derecha sujeta una 
+                  pala que sostiene en su hombro. En segundo plano se vislumbra el perfil de las montañas y cielo azul. 
+                  La los colores de la iluminación indica el atardecer.
+                </p>
+            </div>
+    <!-------------------------------------------- tarjeta n3  --------------------------------------------------------------------------->
+          <div class="imag1" style="width: 18rem;">
+            <img src="{% static 'imagenes/ulisese y calipso.jpeg' %}" class="card-img-top" alt="ulises-calipso">
+              <h5 class="titulo">A friend in need</h5>
+              <p> 
+                En ella podemos ver a siete perros sentados alrededor de una mesa jugando póker, 
+                al frente un bulldog le entrega un as a su amigo por debajo de la mesa.</p>
+          </div>  
+    <!-------------------------------------------- tarjeta n4  --------------------------------------------------------------------------->
+        
+          <div class="imag1" style="width: 18rem;">
+            <img src="{% static 'imagenes/angelcaido.jpg' %}" class="card-img-top" alt="angel-caidos">
+              <h5 class="titulo">El Angel Caido</h5>
+              <p> 
+                El Ángel caído de Cabanel es una de las obras de la historia del arte que sobresale 
+                por la manera auténtica y realista con la que retrata la naturaleza humana 
+                ¿Qué sentía este ángel y cuál es su historia? Conociéndola podremos acercarnos un poco más a lo que quería reflejar el autor.</p>
+          </div>    
+  <!-------------------------------------------- tarjeta n5  ---------------------------------------------------------------------------> 
+
+          <div class="imag1" style="width: 18rem;">
+            <img src="{% static 'imagenes/campobob.jpg' %}" class="card-img-top" alt="bob-ros">
+              <h5 class="titulo">El bosque perfecto</h5>
+              <p> 
+                Obra de de Bob Ross de un bosques idílicos, escenas alpinas en tonos azules tranquilos y gran lago de un hermoso color turquesa.</p>
+          </div> 
+
+    <!-------------------------------------------- tarjeta n6  --------------------------------------------------------------------------->
+          <div class="imag1" style="width: 18rem;">
+            <img src="{% static 'imagenes/david-miguel.png' %}" class="card-img-top" alt="bob-ros">
+              <h5 class="titulo">David de Miguel angel</h5>
+              <p> 
+              Es una escultura de mármol blanco de 5,17 metros​ de altura y 5572 kilogramos de masa,​ 
+              realizada por Miguel Ángel Buonarroti entre 1501 y 1504 por encargo de la Opera del Duomo 
+              de la catedral de Santa María del Fiore de Florencia.  
+              </p>
+          </div>
+    <!-------------------------------------------- tarjeta n7  --------------------------------------------------------------------------->
+          <div class="imag1" style="width: 18rem;">
+            <img src="{% static 'imagenes/El_Greco.png' %}" class="card-img-top" alt="greco-autorretrato">
+              <h5 class="titulo">Autorretrato</h5>
+              <p> 
+                Autorretrato o Retrato de un hombre anciano es un retrato realizado por el Greco en su último periodo toledano.
+              </p>
+          </div>
+    <!-------------------------------------------- tarjeta n8  --------------------------------------------------------------------------->
+          <div class="imag1" style="width: 18rem;">
+            <img src="{% static 'imagenes/dali-la-persistencia-de-la-memoria-cke.png' %}" class="card-img-top" alt="dali-reloj">
+              <h5 class="titulo">La persistencia de la memoria</h5>
+              <p> 
+                Un simple paisaje marino (típico del Cadaqués daliniano, con el cabo Creus y su costa escarpada) 
+                en el que hay una escena insólita: una extraña criatura durmiendo o quizás inerte sobre la arena 
+                (hay quien ve un autorretrato del pintor) y unos relojes que se derriten sobre ella y sobre otros elementos del cuadro.
+              </p>
+          </div>
+        </div>
+      </div>     
+  <!---------------------------------------------------- link para javascript ----------------------------------------------------->    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  
+  </body>
+  </html>
+{% endblock %}
